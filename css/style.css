@@ -163,7 +163,11 @@ a:focus {
 /**********************************/
 .navbar {
     position: relative;
+    background-image: url('../img/batalha-dos-missais-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: .5s;
+    min-height: 80px;
     z-index: 999;
 }
 
@@ -211,7 +215,6 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    background: rgba(256, 256, 256, .1);
     transition: none;
 }
 
@@ -228,7 +231,6 @@ a:focus {
         width: 100%;
         top: 35px;
         padding: 20px 60px;
-        background: rgba(0, 0, 0, .1) !important;
         z-index: 9;
     }
     
