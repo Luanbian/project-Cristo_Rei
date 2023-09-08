@@ -71,6 +71,7 @@ a:focus {
 /**********************************/
 .navbar {
     position: relative;
+    top: 1px !important;
     background-image: url('../img/batalha-dos-missais-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,7 +84,7 @@ a:focus {
 
 .navbar.nav-sticky {
     position: fixed;
-    top: 0;
+    top: 0 !important;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
 }
@@ -1756,7 +1757,6 @@ a:focus {
 
 .sidebar .category-widget ul li span {
     display: inline-block;
-    float: right;
 }
 
 .sidebar .sidebar-widget .tag-widget {
