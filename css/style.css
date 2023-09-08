@@ -75,9 +75,9 @@ a:focus {
     background-size: cover;
     background-repeat: no-repeat;
     transition: .5s;
-    min-height: 130px;
+    min-height: 100px;
     z-index: 999;
-    background-position: center -53px;
+    background-position-y: -53px;
     background-position-x: -70px;
 }
 
@@ -97,7 +97,6 @@ a:focus {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: .5s;
-    
 }
 
 .navbar .navbar-brand span {
