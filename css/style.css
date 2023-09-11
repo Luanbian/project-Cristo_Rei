@@ -80,6 +80,7 @@ a:focus {
     z-index: 999;
     background-position-y: -53px;
     background-position-x: -70px;
+    background-color: black;
 }
 
 .navbar.nav-sticky {
