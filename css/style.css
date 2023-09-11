@@ -1805,15 +1805,15 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #000000;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/menino-jesus-e-cordeiro.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .footer .footer-info {
